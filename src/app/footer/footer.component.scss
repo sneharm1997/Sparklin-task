@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background: #f2f2f2;
+  padding: 85px 100px;
+  .display-flex {
+    display: flex;
+  }
+  .footer-content {
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    color: #4a4a4a;
+  }
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+  .mb-40 {
+    margin-bottom: 40px;
+  }
+  .footer-item {
+    .logo {
+      height: 35px;
+    }
+    .bookstore {
+      display: block;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.3px;
+      color: #6a6a6a;
+    }
+    .social-img {
+      height: 20px;
+      width: 20px;
+      margin-right: 17px;
+    }
+    ul {
+        list-style: none;
+        margin-bottom: 35px;
+      font-size: 12px;
+      .list-heading {
+        line-height: 14px;
+        letter-spacing: 0.3px;
+        color: #4b4b4b;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+      li {
+        line-height: 25px;
+        letter-spacing: 0.3px;
+        color: #4a4a4a;
+      }
+    }
+  }
+}

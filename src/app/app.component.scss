@@ -1,0 +1,89 @@
+@import "../assets/book-image.css";
+
+
+.display-flex {
+  display: flex;
+  font-family: -webkit-pictograph;
+  .left-division {
+    width: 15%;
+    background: #F2F2F2;
+  }
+  .center-division {
+    width: 65%;
+    .tab{
+        height: 60px;
+        background: #F2F2F2;
+        .tab-home{
+            height: 30px;
+            display: flex;
+            background: white;
+            position: relative;
+    top: 30px;
+align-items: center;
+width: fit-content;
+padding: 5px;
+box-sizing: border-box;
+            .tab-title{
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            overflow: hidden;
+            width: 100px;
+            display: block;
+            }
+            .fa-times{
+                color: #A4B3D5;
+                cursor: pointer;
+            }
+        }
+    }
+    .space-between {
+      justify-content: space-between;
+      padding: 0px 35px;
+      .recommend-text {
+        font-size: 20px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.3px;
+        font-weight: bold;
+        color: #000000;
+      }
+      .view-all {
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration: underline;
+        letter-spacing: 0.35px;
+        cursor: pointer;
+        color: #f88822;
+      }
+    }
+    .border-bottom{
+        border-bottom: 1px solid #E3EAF2;
+        margin-bottom: 45px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 0px 35px;
+      column-gap: 100px;
+      .grid-item {
+        padding: 45px 0px;
+      }
+    }
+  }
+  .right-division {
+    width: 25%;
+    background: #F2F2F2;
+    .offer-card {
+      padding: 0px 37px 50px;
+    }
+    .offers{
+        font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.3px;
+color: #000000;
+font-weight: bold;
+padding: 25px 37px 50px 37px;
+    }
+  }
+}

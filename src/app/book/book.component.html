@@ -1,0 +1,27 @@
+<div class="book-component">
+    <div *ngIf="bookTag" class="book-tag">{{bookTag}}</div>
+    <div class="book-block">
+      <div class="{{imgClass}} book-img"></div>
+    </div>
+    <div class="book-info">
+<span class="book-title">
+{{title}}
+</span>
+<span class="book-author">
+{{author}}
+</span>
+<div class="display-flex">
+<span class="book-price">
+    {{price}}
+</span>
+<span class="book-rating">
+    <div class="filled-stars"></div>
+   <img class="not-filled-stars" src="../../assets/Star-not-marked.svg">
+</span>
+</div>
+<div class="button">
+    <button class="add-button">ADD TO CART</button>
+    <button class="buy-button">BUY NOW</button>
+</div>
+    </div>
+</div>

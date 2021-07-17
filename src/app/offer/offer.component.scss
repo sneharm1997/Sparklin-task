@@ -1,0 +1,41 @@
+@import "../../assets/book-image.css";
+
+.offer {
+    background: #FFFFFF;
+border: 1px solid #E3EAF2;
+box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.12);
+border-radius: 5px;
+width: 100%;
+  .offer-img {
+    height: 170px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .padding {
+    padding: 20px 30px 30px;
+    .offer-heading {
+      font-family: FuturaPT;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 0.25px;
+      color: #000000;
+      margin-bottom: 10px;
+    }
+    .offer-content {
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.24px;
+      color: #4b4b4b;
+      margin-bottom: 20px;
+    }
+    .know-more {
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.35px;
+      color: #f88822;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

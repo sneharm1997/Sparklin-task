@@ -1,0 +1,79 @@
+<div class="navbar">
+    <div class="switch-button">
+    <app-switch-button (switchStatus)="switchStatus($event)"></app-switch-button>
+</div>
+  <div class="tag">Bookstore Home</div>
+  <div class="border-bottom"></div>
+  <div class="nav-heading-block">
+    <i class="fa fa-plus" aria-hidden="true" *ngIf="!openNavContent" (click)="openContent($event)"></i>
+    <i class="fa fa-minus" aria-hidden="true" *ngIf="openNavContent" (click)="openContent($event)"></i>
+    <span class="nav-heading">Professional Books</span>
+  </div>
+  <div class="border-bottom"></div>
+  <div class="nav-content-block" *ngIf="openNavContent">
+      <ul class="list">
+          <li class="list-item pt-0">Direct Tax Laws</li>
+          <li class="list-item">International Taxation</li>
+          <li class="list-item">Indirect Tax Laws</li>
+          <li class="list-item">Insolvency and Bankruptcy Code</li>
+          <li class="list-item">GST</li>
+          <li class="list-item">Accounts and Audit</li>
+          <li class="list-item">Banking & Insurance</li>
+          <li class="list-item">Bare Acts</li>
+      </ul>
+  </div>
+  <div class="border-bottom" *ngIf="openNavContent"></div>
+  <div class="nav-heading-block">
+    <i class="fa fa-plus" aria-hidden="true" ></i>
+    <span class="nav-heading">NISM/IIBF</span>
+  </div>
+  <div class="border-bottom"></div>
+  <div class="nav-heading-block">
+     <i class="fa fa-plus" aria-hidden="true" ></i>
+    <span class="nav-heading">Journals</span>
+  </div>
+  <div class="border-bottom"></div>
+  <div class="nav-heading-block">
+     <i class="fa fa-plus" aria-hidden="true" ></i>
+    <span class="nav-heading">Tax Compliance on DVD</span>
+  </div>
+  <div class="border-bottom"></div>
+  <div class="nav-heading-block">
+     <i class="fa fa-plus" aria-hidden="true" ></i>
+    <span class="nav-heading">Taxmann online on DVD</span>
+  </div>
+  <div class="border-bottom"></div>
+  <div class="nav-heading-block">
+     <i class="fa fa-plus" aria-hidden="true" ></i>
+    <span class="nav-heading">Taxmann online on Web</span>
+  </div>
+  <div class="border-bottom"></div>
+  <div class="nav-heading-block">
+     <i class="fa fa-plus" aria-hidden="true" ></i>
+    <span class="nav-heading">E-Services</span>
+  </div>
+  <div class="border-bottom"></div>
+  <div class="nav-heading-block">
+     <i class="fa fa-plus" aria-hidden="true" ></i>
+    <span class="nav-heading">E-Journals</span>
+  </div>
+  <div class="border-bottom"></div>
+  <div class="nav-heading-block">
+     <i class="fa fa-plus" aria-hidden="true" ></i>
+    <span class="nav-heading">E-Books</span>
+  </div>
+  <div class="border-bottom"></div>
+  <div class="nav-heading-block">
+     <i class="fa fa-plus" aria-hidden="true" ></i>
+    <span class="nav-heading">Advanced diploma in 
+        international taxation</span>
+  </div>
+  <div class="border-bottom"></div>
+  <ul class="list">
+      <li class="list-item link pt-0">Quick Links</li>
+      <li class="list-item">Bookmann India</li>
+      <li class="list-item">Authors</li>
+      <li class="list-item">Catalogue</li>
+      <li class="list-item">Dealers</li>
+  </ul>
+</div>
